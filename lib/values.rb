@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  groceries.values.flatten
+  # binding.pry
 end
+# get_the_values(groceries)
